@@ -5,12 +5,13 @@ import { NavLink } from 'react-router-dom';
 import { HeaderContainer, RightCorner } from './styled';
 /**import assets */
 import ProfileImg from 'assets/icons/Profile-IMG.png';
+import commune from 'assets/images/CommAI.png';
 
 const Header: React.FC = () => {
   return (
     <HeaderContainer>
       <NavLink to="/">
-        <h1>Flair</h1>
+        <img src={commune} />
       </NavLink>
       <RightCorner>
         <NavLink to="/brands">Explorer</NavLink>

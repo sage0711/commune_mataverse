@@ -6,13 +6,14 @@ import { BsSearch } from 'react-icons/bs';
 import { HeaderContainerOut, HeaderContainer, SearchBar, RightCorner } from './styled';
 /**import assets */
 import ProfileImg from 'assets/icons/Profile-IMG.png';
+import commune from 'assets/images/CommAI.png';
 
 const Header: React.FC = () => {
   return (
     <HeaderContainerOut>
       <HeaderContainer>
         <Link to="/">
-          <h1>Flair</h1>
+          <img src={commune} />
         </Link>
         <SearchBar>
           <BsSearch />

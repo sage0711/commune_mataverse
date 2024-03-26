@@ -19,7 +19,7 @@ const MetaverseContainer: React.FC = () => {
       <StyledContainer>
         {/* <MetaverseImg src={Home_People_1_Img} alt="Home-people-1-img" /> */}
         <Shape>
-          <h1>Enter Flair’s Metaverse</h1>
+          <h1>Enter commune’s Metaverse</h1>
           <h3>Build your own space and explore the world of fashion </h3>
           <Button
             width={!isMobile ? 331 : 280}

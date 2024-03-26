@@ -10,7 +10,7 @@ import SolImg from 'assets/icons/Sol.svg';
 const Footer: React.FC = () => {
   return (
     <StyledContainer>
-      <Title>Get more out of Flair</Title>
+      <Title>Get more out of commune</Title>
       <MoreInfo>
         <ItemList>
           <span>Build</span>
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
         </ItemList>
         <ItemList>
           <span>Other</span>
-          <p>Break Flair</p>
+          <p>Break commune</p>
           <p>Disclaimer</p>
           <p>Press & Brand</p>
         </ItemList>
@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
       <FooterSection>
         <img src={SolImg} alt="sol-icon" width={25} height={25} />
         <div>
-          <span>FLAIR.COM</span>
+          <span>commune.com</span>
           <span>
             <VscGlobe />
             <FaAngleDown />
